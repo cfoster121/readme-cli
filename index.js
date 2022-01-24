@@ -6,48 +6,48 @@ var inquirer = require('inquirer');
 inquirer
 .prompt([
     {
-        message:
-        type:
-        name: 'title'
+        message: 'Project Title:',
+        type: 'input',
+        name: 'title',
     },
     {
-        message:
-        type:
-        name: 'descripton'
+        message: 'Project Description:',
+        type: 'input',
+        name: 'descripton',
     },
     {
-        message:
-        type:
-        name: 'table of contents'
+        message: 'Table of Contents:',
+        type: 'input',
+        name: 'contents'
     },
     {
-        message:
-        type:
-        name: 'installation'
+        message: 'Installation:',
+        type: 'input',
+        name: 'installation',
     },
     {
-        message:
-        type:
-        name: 'usage'
+        message: 'Usage:',
+        type: 'input',
+        name: 'usage',
     },
     {
-        message:
-        type:
-        name: 'license' 
+        message: 'License:',
+        type: 'list',
+        name: 'license' ,
     },
     {
-        message:
-        type:
-        name: 'contributing'
+        message: 'Contributing:',
+        type: 'input',
+        name: 'contributing',
     },
     {
-        message:
-        type:
-        name: 'tests'
+        message: 'Tests:',
+        type: 'input',
+        name: 'tests',
     },
     {
-        message:
-        type:
-        name: 'questions'
+        message: 'Questions:',
+        type: 'input',
+        name: 'questions',
     },
 ])
