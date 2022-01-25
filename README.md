@@ -11,7 +11,9 @@ User can create a professional ReadMe file through CLI prompts
 * Run 'npm install inquirer' in terminal
 * Run 'node index.js' in terminal
 * Follow inquirer prompts in terminal
-* New file will be saved as "file-name.md" in repository folder
+* New file will be saved as "file-name.md" in repository folder  
+  
+* Watch tutorial [here](https://youtu.be/dSPbE8Wpz2I)
 
 
 ### Prerequisites
