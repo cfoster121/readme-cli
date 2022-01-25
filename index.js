@@ -4,7 +4,7 @@ var inquirer = require('inquirer');
 
 const validAns = 
 
-console.log("Welcome to ReadMe generator! Type your response to each prompt and press enter to submit. Your ReadMe will be generated once all questions have been answered and saved as `readme.md`")
+console.log("***Welcome to ReadMe generator! Type your response to each prompt and press enter to submit. Your ReadMe will be generated once all questions have been answered and saved as `readme.md`***")
 
 inquirer
     .prompt([
@@ -24,17 +24,41 @@ inquirer
         {
             message: 'Project Description:',
             type: 'input',
-            name: 'descripton',
+            name: 'description',
+            validate: input => {
+                if (input) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter a description")
+                }
+            }
         },
         {
             message: 'Installation:',
             type: 'input',
             name: 'installation',
+            validate: input => {
+                if (input) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter installation instructions")
+                }
+            }
         },
         {
             message: 'Usage:',
             type: 'input',
             name: 'usage',
+            validate: input => {
+                if (input) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter usage information")
+                }
+            }
         },
         {
             message: 'License:',
@@ -79,26 +103,66 @@ inquirer
             message: 'Contributing:',
             type: 'input',
             name: 'contributing',
+            validate: input => {
+                if (input) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter contributors")
+                }
+            }
         },
         {
             message: 'Tests:',
             type: 'input',
             name: 'tests',
+            validate: input => {
+                if (input) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter tests")
+                }
+            }
         },
         {
             message: 'Questions:',
             type: 'input',
             name: 'questions',
+            validate: input => {
+                if (input) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter questions")
+                }
+            }
         },
         {
             message: 'GitHub Username:',
             type: 'input',
             name: 'github',
+            validate: input => {
+                if (input) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter your GitHub username")
+                }
+            }
         },
         {
             message: 'Email:',
             type: 'input',
             name: 'email',
+            validate: input => {
+                if (input) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter your email address")
+                }
+            }
         },
     ])
     .then((r) => {
