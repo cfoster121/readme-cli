@@ -2,6 +2,9 @@ var fs = require('fs');
 
 var inquirer = require('inquirer');
 
+const validAns = 
+
+console.log("Welcome to ReadMe generator! Type your response to each prompt and press enter to submit. Your ReadMe will be generated once all questions have been answered and saved as `readme.md`")
 
 inquirer
     .prompt([
@@ -9,6 +12,14 @@ inquirer
             message: 'Project Title:',
             type: 'input',
             name: 'title',
+            validate: input => {
+                if (input) {
+                    return true;
+                }
+                else {
+                    console.log("Please enter a title")
+                }
+            }
         },
         {
             message: 'Project Description:',

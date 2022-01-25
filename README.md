@@ -1,9 +1,9 @@
 
 
 # Title  
-fd   
+f   
   
-[License Badge](assets/images/Boost-Software-License-1.0.png)  
+[License Badge](assets/images/Apache-License-2.0.png)  
 
 ## Description   
 undefined    
@@ -18,24 +18,24 @@ undefined
     
     
 ## Installation  
-diwd  
+  
     
 ## Usage  
-safj  
+  
      
 ## License   
-Boost Software License 1.0 
+Apache License 2.0 
      
 ## Contributing  
-fj  
+ef  
     
 ## Tests  
-sd     
+     
     
 ## Questions
-weiq   
+df   
   
 Contact me via:  
-* ![GitHub](www.github.com/wadsk)  
-* ![Email](mailto:ced) me with any further questions
+* ![GitHub](www.github.com/c)  
+* ![Email](mailto:) me with any further questions
     
