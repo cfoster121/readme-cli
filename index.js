@@ -4,7 +4,7 @@ var inquirer = require('inquirer');
 
 const validAns = 
 
-console.log("***Welcome to ReadMe generator! Type your response to each prompt and press enter to submit. Your ReadMe will be generated once all questions have been answered and saved as `readme.md`***")
+console.log("***Welcome to ReadMe generator! Type your response to each prompt and press enter to submit. Your ReadMe will be generated once all questions have been answered and saved as 'Your-Project-Title.md'***")
 
 inquirer
     .prompt([
@@ -155,7 +155,7 @@ inquirer
     .then((r) => {
 
         var badge = `${r.license}`.split(" ").join("-")
-
+        var docTitle = `${r.title}`.split(" ").join("-")
         const readMeTemplate =
 
             `
@@ -195,12 +195,12 @@ ${r.tests}
 ## Questions?  
   
 Contact me via:  
-* [GitHub](github.com/${r.github})  
+* [GitHub](https://github.com/${r.github})  
 * [Email](mailto:${r.email}) 
     `
 
 
-        fs.writeFile("readme.md", readMeTemplate, function (err) {
+        fs.writeFile(docTitle+".md", readMeTemplate, function (err) {
             if (err) throw err;
             console.log('Saved');
         })
