@@ -9,12 +9,12 @@ title
 description    
 
 ### Table Of Contents  
-* ![Installation](https://github.com/cfoster121/readme-cli#installation)
-* ![Usage](https://github.com/cfoster121/readme-cli#usage)
-* ![License](https://github.com/cfoster121/readme-cli#license)
-* ![Contributing](https://github.com/cfoster121/readme-cli#contributing)
-* ![Tests](https://github.com/cfoster121/readme-cli#tests)
-* ![Questions](https://github.com/cfoster121/readme-cli#questions?)  
+* [Installation](#Insallation)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
+* [Questions](#Questions)  
     
     
 ## Installation  
