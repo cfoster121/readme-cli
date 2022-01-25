@@ -3,38 +3,38 @@
 # Title  
 title   
   
-[License Badge](assets/images/Creative-Commons-Attribution-NoDerivitaves-4.0-International.png)  
+![License Badge](assets/images/Creative-Commons-Zero-V1.0-Universal.png)  
 
 ## Description   
-description    
+desc    
 
 ### Table Of Contents  
-* [Installation](#Insallation)
+* [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
 * [Tests](#Tests)
-* [Questions](#Questions)  
+* [Questions](#Questions)
     
     
 ## Installation  
 install  
     
 ## Usage  
-usage  
+use  
      
 ## License   
-Creative Commons Attribution NoDerivitaves 4.0 International 
+Creative Commons Zero V1.0 Universal 
      
 ## Contributing  
 contributors  
     
 ## Tests  
-tests     
+test     
     
 ## Questions?  
   
 Contact me via:  
-* ![GitHub](www.github.com/cfoster121)  
-* ![Email](mailto:cfoster649@gmail.com) 
+* [GitHub](www.github.com/cfoster121)  
+* [Email](mailto:cfoster649@gmail.com) 
     

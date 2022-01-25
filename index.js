@@ -163,13 +163,13 @@ inquirer
 # Title  
 ${r.title}   
   
-[License Badge](assets/images/${badge}.png)  
+![License Badge](assets/images/${badge}.png)  
 
 ## Description   
 ${r.description}    
 
 ### Table Of Contents  
-* [Installation](#Insallation)
+* [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
 * [Contributing](#Contributing)
@@ -195,8 +195,8 @@ ${r.tests}
 ## Questions?  
   
 Contact me via:  
-* ![GitHub](www.github.com/${r.github})  
-* ![Email](mailto:${r.email}) 
+* [GitHub](www.github.com/${r.github})  
+* [Email](mailto:${r.email}) 
     `
 
 
