@@ -16,11 +16,6 @@ inquirer
             name: 'descripton',
         },
         {
-            message: 'Table of Contents:',
-            type: 'input',
-            name: 'contents'
-        },
-        {
             message: 'Installation:',
             type: 'input',
             name: 'installation',
@@ -100,27 +95,34 @@ inquirer
     ])
     .then((r) => {
         const readMeTemplate =
-    `# Title  
-    ${r.title}  
+    `
+# Title  
+${r.title}  
 
-    ## Description   
+## Description   
     
 
-    ### Table Of Contents
+### Table Of Contents  
+* ![Installation](#installation)
+* ![Usage](#usage)
+* ![License](#license)
+* ![Contributing](#contributing)
+* ![Tests](#tests)
+* ![Questions](#questions)
     
     
-    ## Installation
+## Installation
     
-    ### Usage
+## Usage
     
-    ## License 
+## License 
     
-    ## Contributing
+## Contributing
     
-    ## Tests
+## Tests
     
     
-    ## Questions
+## Questions
     `
 
 
