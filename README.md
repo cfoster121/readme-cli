@@ -1,6 +1,9 @@
 
+
 # Title  
-title   
+fd   
+  
+[License Badge](assets/images/Boost-Software-License-1.0.png)  
 
 ## Description   
 undefined    
@@ -15,24 +18,24 @@ undefined
     
     
 ## Installation  
-sd  
+diwd  
     
 ## Usage  
-era  
+safj  
      
 ## License   
-Academic Free License v3.0  
+Boost Software License 1.0 
      
 ## Contributing  
-sdf  
+fj  
     
 ## Tests  
-jo     
+sd     
     
 ## Questions
-none   
+weiq   
   
 Contact me via:  
-* ![GitHub](www.github.com/cfoster121  
-* ![Email](mailto:cfoster649@gmail.com) me with any further questions
+* ![GitHub](www.github.com/wadsk)  
+* ![Email](mailto:ced) me with any further questions
     
