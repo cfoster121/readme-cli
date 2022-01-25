@@ -35,6 +35,6 @@ test
 ## Questions?  
   
 Contact me via:  
-* [GitHub](www.github.com/cfoster121)  
+* [GitHub](github.com/cfoster121)  
 * [Email](mailto:cfoster649@gmail.com) 
     

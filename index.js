@@ -195,7 +195,7 @@ ${r.tests}
 ## Questions?  
   
 Contact me via:  
-* [GitHub](www.github.com/${r.github})  
+* [GitHub](github.com/${r.github})  
 * [Email](mailto:${r.email}) 
     `
 
