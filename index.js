@@ -163,7 +163,7 @@ inquirer
 # Title  
 ${r.title}   
   
-![License Badge](assets/images/${badge}.png)  
+![License Badge](https://raw.githubusercontent.com/cfoster121/readme-cli/main/assets/images/${badge}.png)  
 
 ## Description   
 ${r.description}    
