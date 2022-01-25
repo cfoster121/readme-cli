@@ -4,7 +4,7 @@ var inquirer = require('inquirer');
 
 const validAns = 
 
-console.log("***Welcome to ReadMe generator! Type your response to each prompt and press enter to submit. Your ReadMe will be generated once all questions have been answered and saved as 'Your-Project-Title.md'***")
+console.log("\n***\n Welcome to ReadMe generator! \nType your response to each prompt and press enter to submit. \nYour ReadMe will be generated once all questions have been answered and saved as: \n'Your-Project-Title.md'\n***\n")
 
 inquirer
     .prompt([
