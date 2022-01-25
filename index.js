@@ -127,7 +127,11 @@ ${r.contributing}
 ${r.tests}     
     
 ## Questions
-${r.questions}  
+${r.questions}   
+  
+Contact me via:  
+* ![GitHub](www.github.com/${r.github})
+* ![Email](mailto:${r.email}) me with any further questions
     `
 
 

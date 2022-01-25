@@ -1,6 +1,6 @@
 
 # Title  
-titl   
+title   
 
 ## Description   
 undefined    
@@ -15,20 +15,24 @@ undefined
     
     
 ## Installation  
-daf  
+sd  
     
 ## Usage  
-jae  
+era  
      
 ## License   
-BSD 2-Clause Simplified License  
+Academic Free License v3.0  
      
 ## Contributing  
-me  
+sdf  
     
 ## Tests  
-sd     
+jo     
     
 ## Questions
-j  
+none   
+  
+Contact me via:  
+* ![GitHub](www.github.com/cfoster121  
+* ![Email](mailto:cfoster649@gmail.com) me with any further questions
     
