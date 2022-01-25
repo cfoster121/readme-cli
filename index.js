@@ -126,19 +126,6 @@ inquirer
             }
         },
         {
-            message: 'Questions:',
-            type: 'input',
-            name: 'questions',
-            validate: input => {
-                if (input) {
-                    return true;
-                }
-                else {
-                    console.log("Please enter questions")
-                }
-            }
-        },
-        {
             message: 'GitHub Username:',
             type: 'input',
             name: 'github',
@@ -205,12 +192,11 @@ ${r.contributing}
 ## Tests  
 ${r.tests}     
     
-## Questions
-${r.questions}   
+## Questions?  
   
 Contact me via:  
 * ![GitHub](www.github.com/${r.github})  
-* ![Email](mailto:${r.email}) me with any further questions
+* ![Email](mailto:${r.email}) 
     `
 
 
