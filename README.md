@@ -4,8 +4,8 @@ User can create a professional ReadMe file through CLI prompts
 
 ## Getting Started
 
-* Clone repository to computer
 * Open terminal or git bash
+* Clone repository to computer
 * Navigate to repository folder in terminal
 * Run 'npm install node' in terminal
 * Run 'npm install inquirer' in terminal
