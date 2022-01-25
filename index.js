@@ -97,10 +97,10 @@ inquirer
         const readMeTemplate =
     `
 # Title  
-${r.title}  
+${r.title}   
 
 ## Description   
-    
+${r.description}    
 
 ### Table Of Contents  
 * ![Installation](#installation)
@@ -108,21 +108,26 @@ ${r.title}
 * ![License](#license)
 * ![Contributing](#contributing)
 * ![Tests](#tests)
-* ![Questions](#questions)
+* ![Questions](#questions)  
     
     
-## Installation
+## Installation  
+${r.installation}  
     
-## Usage
+## Usage  
+${r.usage}  
+     
+## License   
+${r.license}  
+     
+## Contributing  
+${r.contributing}  
     
-## License 
-    
-## Contributing
-    
-## Tests
-    
+## Tests  
+${r.tests}     
     
 ## Questions
+${r.questions}  
     `
 
 
